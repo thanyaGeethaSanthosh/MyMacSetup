@@ -238,7 +238,7 @@ ssh -T git@github.com
 - [**XMind**](https://www.xmind.net/download/)
 - [**VLC Player**](https://www.videolan.org/vlc/download-macosx.html)
 - [**Google Backup**](https://www.google.com/intl/en-GB_ALL/drive/download/backup-and-sync/)
-- [**Drop Box**](https://www.virtualbox.org/wiki/Downloads)
+- [**Virtual Box**](https://www.virtualbox.org/wiki/Downloads)
 
 ## Other Applications from Apple App Store
 
