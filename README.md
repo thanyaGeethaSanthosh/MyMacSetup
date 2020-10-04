@@ -83,7 +83,7 @@ by running this scipt on the terminal ([Reference](https://brew.sh/))
     ```
  - Configure _**Powerlevel10k**_
  ```
- p10k cofigure
+ p10k cofigure (sometimes need to restart before this)
  ```
  
  ***
