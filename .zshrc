@@ -2,18 +2,17 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/kannan/.oh-my-zsh"
+export ZSH="/Users/thanya/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-# ZSH_THEME="robbyrussell"
-ZSH_THEME="powerlevel10k/powerlevel10k"
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in $ZSH/themes/
+# a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
@@ -34,10 +33,10 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # export UPDATE_ZSH_DAYS=13
 
 # Uncomment the following line if pasting URLs and other text is messed up.
-# DISABLE_MAGIC_FUNCTIONS="true"
+# DISABLE_MAGIC_FUNCTIONS=true
 
 # Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
+ DISABLE_LS_COLORS="true"
 
 # Uncomment the following line to disable auto-setting terminal title.
 # DISABLE_AUTO_TITLE="true"
@@ -65,8 +64,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 # Which plugins would you like to load?
-# Standard plugins can be found in $ZSH/plugins/
-# Custom plugins may be added to $ZSH_CUSTOM/plugins/
+# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
@@ -98,6 +97,23 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias nodes="node-prototype-repl";
+alias gst="git status";
+alias ga="git add";
+alias gcmt="git commit";
+alias gl="git log";
+alias gpr="git pull --rebase"
+
+export LC_ALL=en_US.UTF-8
+export LC_CTYPE=en_US.UTF-8
+
+
+
+source ~/powerlevel10k/powerlevel10k.zsh-theme
+POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
+
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+[[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
+
+
