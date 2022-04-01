@@ -56,7 +56,7 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/thanyac/.zprofile
  ## Oh My Zsh [(Reference)](https://github.com/ohmyzsh/ohmyzsh)
   - Install _**ohmyzsh**_
   ```
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master tools/install.sh)"
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended"
   ```
   
 ***
