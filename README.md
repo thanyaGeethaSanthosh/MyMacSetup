@@ -17,6 +17,8 @@
  ### Copy clip
  [CopyClip](https://apps.apple.com/in/app/copyclip-clipboard-history/id595191960?mt=12)
 ***
+### Bitwarden Password Manager
+[Bitwarden](https://apps.apple.com/us/app/bitwarden-password-manager/id1137397744)
  
  ## Iterm
  - Click [here](https://www.iterm2.com/downloads.html) to Install _**Iterm2**_
@@ -217,3 +219,7 @@ ssh -T git@github.com
 - **Bandwidth+**
 - **CopyClip**
 - **Imovie**
+
+#### More reference
+
+[mac setup doc](https://www.robinwieruch.de/mac-setup-web-development/)
