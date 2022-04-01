@@ -22,7 +22,8 @@
  
  ## Iterm
  - Click [here](https://www.iterm2.com/downloads.html) to Install _**Iterm2**_
- 
+ - To change key shortcut to mac
+> Go to Iterm preferences -> Profile(Default) -> Keys -> Key mapping -> select Natural text editing.
  ***
  
  ## Home Brew
