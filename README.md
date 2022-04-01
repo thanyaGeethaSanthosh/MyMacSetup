@@ -14,6 +14,9 @@
 2. [Oktotree](https://addons.mozilla.org/en-US/firefox/addon/octotree/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
  
  ***
+ ### Copy clip
+ [CopyClip](https://apps.apple.com/in/app/copyclip-clipboard-history/id595191960?mt=12)
+***
  
  ## Iterm
  - Click [here](https://www.iterm2.com/downloads.html) to Install _**Iterm2**_
@@ -26,6 +29,11 @@ by running this scipt on the terminal ([Reference](https://brew.sh/))
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
+- Run these two commands in your terminal to add Homebrew to your PATH:
+```
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/thanyac/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+ ```
  
 ***
  
