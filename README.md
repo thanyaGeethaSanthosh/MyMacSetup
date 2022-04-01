@@ -150,40 +150,6 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/thanyac/.zprofile
   
 ***
 
-## Alacritty 
-  - Install _**Mannually**_ [(Reference)](https://github.com/alacritty/alacritty/blob/master/INSTALL.md)
-
-  _**OR**_
-
-  ```
-  brew cask install alacritty
-  ```
-  - Get configured alacritty.yml file [here](https://github.com/charliechaplinn/MyMacSetup/blob/main/alacritty.yml)
-  - Add this file as ```~/.config/alacritty/alacritty.yml```
-  
-***
-  
-## fish
-  
-  - Install _**Fish**_ [(Reference)](https://fishshell.com/)
-  ```
-  brew install fish
-  ```
-  - Get fish cofiguration file [here](https://github.com/charliechaplinn/MyMacSetup/tree/main)
-  - Add this file in ```~/.config/fish/config.fish```
-  
-***
-
-## tmux  
-  - Install _**tmux**_ [(Reference)](https://github.com/tmux/tmux/wiki/Installing)
-  ```
-  brew install tmux
-  ```
-  - Get tmux configuration file [here](https://github.com/charliechaplinn/MyMacSetup/blob/main/tmux.conf)
-  - Add this file as ```~/.tmux.conf```
-  
-***
-
 ## ShiftIt
   - Install _**ShiftIt**_ [(Reference)](https://github.com/fikovnik/ShiftIt)
   ```
@@ -227,7 +193,7 @@ ssh -T git@github.com
 ## Other Applications
 
 - [**Slack**](https://slack.com/intl/en-in/downloads/mac)
-- [**1Password**](https://1password.com/downloads/mac/)
+- [**Discord**](https://discord.com/download)
 - [**Zoom**](https://zoom.us/download)
 - [**Evernote**](https://evernote.com/download)
 - [**Node.js**](https://nodejs.org/en/download/)
@@ -236,6 +202,15 @@ ssh -T git@github.com
 - [**VLC Player**](https://www.videolan.org/vlc/download-macosx.html)
 - [**Google Backup**](https://www.google.com/intl/en-GB_ALL/drive/download/backup-and-sync/)
 - [**Virtual Box**](https://www.virtualbox.org/wiki/Downloads)
+
+## Other Tools
+
+- **nvm**
+`brew install nvm)`
+- **docker**
+`brew install docker)`
+- **Autojump**
+`brew install autojump`
 
 ## Other Applications from Apple App Store
 
