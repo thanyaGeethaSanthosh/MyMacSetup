@@ -87,7 +87,7 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/thanyac/.zprofile
  
  ***
  
- ## Zsh Autho Suggestion
+ ## Zsh Auto Suggestion
  - Install _**zsh Autho suggestion**_ [(Reference)](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
     * Install _**Mannually**_
     ```
