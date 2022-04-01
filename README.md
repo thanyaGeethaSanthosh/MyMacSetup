@@ -145,7 +145,7 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/thanyac/.zprofile
   - Prettier
   - C/C++
   - Quokka.js
-  - SQLite
+  - Thunder
   
   ### Theme
   - Molokai (Dark)
