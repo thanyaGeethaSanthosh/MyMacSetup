@@ -1,28 +1,22 @@
 # MyMacSetup
 
-## Laptop Registration with sophos
-- Click [here](https://api.mdm.thoughtworks.net/rolzog/downloadRegistrationPackage) to Register Thoughtworks laptop --
-
-## Chrome / Brave
+## Chrome / Brave / Firefox
 - Click [here](https://www.google.com/chrome/?brand=CHBD&gclsrc=ds&gclsrc=ds) to Install _**Chrome**_
 - Click [here](https://brave.com/download/) to Install _**Brave**_
-
-### Plugins   
-1. [OnePassword](https://chrome.google.com/webstore/detail/1password-extension-deskt/aomjjhallfgjeglblehebfpbcfeobpgk)
-2. [Grammraly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen)
-3. [Okta](https://chrome.google.com/webstore/detail/okta-browser-plugin/glnpjglilkicbckjpbgcfkogebgllemb)
-4. [Octotree](https://chrome.google.com/webstore/detail/octotree-github-code-tree/bkhaagjahfmjljalopjnoealnfndnagc)
-
-***
-
-## Firefox
 - Click [here](https://www.mozilla.org/en-US/firefox/new/) to Install _**Firefox**_
 
-### Plugins
-1. [OnePassword](https://1password.com/browsers/firefox/)
-2. [Grammarly](https://addons.mozilla.org/en-US/firefox/addon/grammarly-1/)
-3. [Okta](https://addons.mozilla.org/en-US/firefox/addon/okta-browser-plugin/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
-4. [Oktotree](https://addons.mozilla.org/en-US/firefox/addon/octotree/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+### Plugins for Chrome  
+1. [Lastpass](https://www.mozilla.org/en-US/firefox/new/)
+2. [Octotree](https://chrome.google.com/webstore/detail/octotree-github-code-tree/bkhaagjahfmjljalopjnoealnfndnagc)
+
+### Plugins for Firefox
+1. [Lastpass](https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/)
+2. [Oktotree](https://addons.mozilla.org/en-US/firefox/addon/octotree/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+ 
+ ***
+ 
+ ## Iterm
+ - Click [here](https://www.iterm2.com/downloads.html) to Install _**Iterm2**_
  
  ***
  
@@ -32,11 +26,6 @@ by running this scipt on the terminal ([Reference](https://brew.sh/))
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
- 
-***
- 
- ## Iterm
- - Click [here](https://www.iterm2.com/downloads.html) to Install _**Iterm2**_
  
 ***
  
