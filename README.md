@@ -138,8 +138,10 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/thanyac/.zprofile
 ## JENV
 - Run this to install jenv ```brew install jenv```
 - Run this to add to zhrc 
-   ```echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc
-      echo eval "$(jenv init -)"' >> ~/.zshrc```
+   ```
+   echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc
+      echo eval "$(jenv init -)"' >> ~/.zshrc
+    ```
 -  Here is [reference](https://chamikakasun.medium.com/how-to-manage-multiple-java-version-in-macos-e5421345f6d0) for installing and managing multiple versions of java.
 
 ***
