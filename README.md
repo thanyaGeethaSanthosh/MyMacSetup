@@ -140,9 +140,20 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/thanyac/.zprofile
 - Run this to add to zhrc 
    ```
    echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc
-      echo eval "$(jenv init -)"' >> ~/.zshrc
+   echo 'eval "$(jenv init -)"' >> ~/.zshrc
     ```
--  Here is [reference](https://chamikakasun.medium.com/how-to-manage-multiple-java-version-in-macos-e5421345f6d0) for installing and managing multiple versions of java.
+-  Here is [reference](https://chamikakasun.medium.com/how-to-manage-multiple-java-version-in-macos-e5421345f6d0) for installing and managing multiple versions of Java.
+
+***
+## NVM
+- Run this to install jenv ```brew install nvm ```
+- Run this `mkdir ~/.nvm`
+- Run this to add to zhrc 
+   ```
+   echo 'export NVM_DIR=~/.nvm' >> ~/.zshrc
+   echo 'source $(brew --prefix nvm)/nvm.sh' >> ~/.zshrc
+    ```
+-  Here is [reference](https://tecadmin.net/install-nvm-macos-with-homebrew/) for installing and managing multiple versions of NodeJS.
 
 ***
     
