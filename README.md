@@ -135,6 +135,14 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/thanyac/.zprofile
 - Add this file as ```~/.vimrc```
 
 ***
+## JENV
+- Run this to install jenv ```brew install jenv```
+- Run this to add to zhrc 
+   ```echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc
+      echo eval "$(jenv init -)"' >> ~/.zshrc```
+-  Here is [reference](https://chamikakasun.medium.com/how-to-manage-multiple-java-version-in-macos-e5421345f6d0) for installing and managing multiple versions of java.
+
+***
     
 ## VS Code
 - Click [here](https://code.visualstudio.com/) to Install _**VS Code**_
@@ -208,11 +216,8 @@ ssh -T git@github.com
 - [**Virtual Box**](https://www.virtualbox.org/wiki/Downloads)
 
 ## Other Tools
-
-- **nvm**
-`brew install nvm)`
 - **docker**
-`brew install docker)`
+`brew install docker`
 - **Autojump**
 `brew install autojump`
 
