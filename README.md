@@ -17,6 +17,10 @@
  ### Copy clip
  [CopyClip](https://apps.apple.com/in/app/copyclip-clipboard-history/id595191960?mt=12)
 ***
+***
+ ### Maccy (clip board)
+ [Maccy](https://maccy.app/)
+***
 ### Bitwarden Password Manager
 [Bitwarden](https://apps.apple.com/us/app/bitwarden-password-manager/id1137397744)
  
