@@ -173,6 +173,8 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/thanyac/.zprofile
   - Quokka.js
   - Thunder
   - Material icon theme
+ ### Setting up eslint and prettier
+  -https://needlify.com/post/how-to-configure-eslint-and-prettier-with-vscode-ad8d0900
   
   ### Theme
   - Molokai (Dark)
